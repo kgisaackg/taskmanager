@@ -1,0 +1,30 @@
+.card, .cards{
+    max-width: 250px;
+    min-width: 210px;
+}
+
+
+
+.task{
+    background-color: pink;
+    border-radius: 12px;
+    margin-top: 20px;
+    padding: 8px;
+}
+
+.p{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 8px;
+    margin-right: 5px;
+    font-size: 10px;
+}
+
+.task:nth-child(even){
+    background-color: rgb(157, 157, 238);
+}
+.card-title{
+    background-color: blue;
+
+}
