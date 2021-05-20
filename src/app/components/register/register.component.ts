@@ -36,7 +36,8 @@ export class RegisterComponent implements OnInit {
   
   onSubmit(){
    
-    this.authService.emailSignup(this.customerForm.value.emailAddress, this.customerForm.value.password)
+    this.authService.emailSignup(this.customerForm.value.firstname, this.customerForm.value.lastname,
+      this.customerForm.value.emailAddress, this.customerForm.value.password)
     console.log("submited")
   }
 }

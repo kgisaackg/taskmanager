@@ -14,6 +14,7 @@ import { AddSubTaskComponent } from './components/add-sub-task/add-sub-task.comp
 
 import { AngularFireModule } from "@angular/fire";
 import { AngularFireAuthModule } from "@angular/fire/auth";
+import { AngularFirestoreModule } from "@angular/fire/firestore";
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 ;
@@ -45,6 +46,7 @@ const firebaseConfig = {
     MDBBootstrapModule.forRoot(),
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireAuthModule,
+    AngularFirestoreModule,
     FormsModule,
     ReactiveFormsModule,
   ],
